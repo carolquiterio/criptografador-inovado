@@ -1,0 +1,86 @@
+body {
+    font: 400 14px Roboto, sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea {
+    font: 400 18px Roboto, sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    width: 100%;
+	max-width: 900px;
+	height: 100vh;
+	margin: 0 auto;
+	display: flex;
+}
+
+.container .content {
+    width: 100%;
+	padding: 96px;
+	background: #f0f0f5;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container .content .section {
+    width: 100%;
+	max-width: 380px;
+}
+
+.container .content .section .cabecalho {
+  border-radius:4px;
+  background: #93dff8; 
+  border:3px solid #00b2ee;
+  font-size: 20px;
+  width:100%;
+  max-width: 700px;
+  text-align: center;
+  float: center;
+}
+
+.frase {
+  border-radius:4px;
+  background: #93dff8; 
+  border:3px solid #00b2ee;
+  font-size: 16px;
+  width:100%;
+  text-align: right;
+  height: 80px;
+  max-width: 700;
+}
+
+.container .content .section .botao {
+  border-radius:8px;
+  font-size: 20px;
+  font-weight: 400;
+  background: #93dff8; 
+  border:3px solid #93dff8;
+  width:55px;
+  height:35;
+  cursor: pointer;
+}
+
+.container .content .section .botaoEss {
+    border-radius:8px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #00b2ee; 
+    border:3px solid #00b2ee;
+    width:200px;
+    height:45;
+    cursor: pointer;
+}
+
+
+.container .content .section .botao:hover {
+    filter: brightness(90%);
+}
+
+
