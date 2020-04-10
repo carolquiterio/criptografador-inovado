@@ -4,13 +4,13 @@ criptografia.fraseCriptografada = '';
 
 criptografia.crip = function() { };
 
-var simbolos = "abcdefghijklmnoprstuvwxyz";
+var simbolos = "abcdefghijklmnopqrstuvwxyz0123456789áéíóúãõâêîôûç";
 var tamanho = simbolos.length;
 
 function codificar(letra) {
-    for (i = 0; i < tamanho; i++) {
-
-        if (letra === "z") {
+    for (i = 0; i <= tamanho; i++) {
+        
+        if(letra === "ç") { 
             return "a";
         }
 
@@ -27,13 +27,13 @@ function codificar(letra) {
 function descodificar(letra)
 {
     if (letra === "a") {
-        return "z";
+        return "ç";
     }
 
     if (letra === " ") {
         return " ";
     }
-    for(i = 0; i < tamanho; i++)
+    for(i = 0; i <= tamanho; i++)
     {
         if (letra === this.simbolos.substring(i, i - 1))
         {
