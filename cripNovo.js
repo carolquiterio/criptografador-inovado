@@ -5,7 +5,7 @@ criptografia.fraseCriptografada = '';
 criptografia.crip = function() { };
 
 var simbolos = "abcdefghijklmnopqrstuvwxyz0123456789áéíóúãõâêîôû,!@#$%¨&*()_+=-.;:]}[{/?ç";
-var tamanho = simbolos.length;
+var tamanho = simbolos.length; 
 
 function codificar(letra) {
     for (i = 0; i <= tamanho; i++) {
